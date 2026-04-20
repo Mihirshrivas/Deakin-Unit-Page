@@ -15,8 +15,43 @@ p {
   font-size: 14px;
   font-family: Arial
 }
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+font-family: Arial
+}
+tr:nth-child(odd) {background-color: #f2f2f2;}
 
 div {
  background-color: blue;
  text-align: right;
+
+.rating-panel {
+  width: 300px;
+  padding: 14px 18px;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+}
+
+.rating-title {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #32363a;
+}
+
+.rating-stars button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #777;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.rating-stars button:hover {
+  color: #f4b400;
 }
